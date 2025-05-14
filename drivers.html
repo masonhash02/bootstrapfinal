@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover the engineering marvels of Formula 1 cars.">
+    <meta name="author" content="Mason Hash">
+    <title>Formula 1 Starterpack</title>
+    <link rel="icon" type="image/png" href="images/f1logo.png">
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+ 
+    <body>
+  <nav class="navbar navbar-expand-lg navbar-dark mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="images/f1logo.png"
+          alt="F1 Logo"
+          width="36"
+          height="36"
+          class="d-inline-block align-text-top me-2"
+        />
+        F1 Starterpack
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="drivers.html">Drivers</a></li>
+          <li class="nav-item"><a class="nav-link" href="car.html">Car</a></li>
+          <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+          <li class="nav-item"><a class="nav-link" href="tracks.html">Tracks</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="text-center mb-5">Meet the Drivers</h1>
+    <!-- Driver Cards -->
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <img src="images/verstappen.avif" class="card-img-top" alt="Max Verstappen" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Max Verstappen</h5>
+            <p>Red Bull Racing, #1</p>
+            <a href="#verstappen" class="btn btn-primary btn-sm">View Bio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <img src="images/leclerc.avif" class="card-img-top" alt="Charles Leclerc" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Charles Leclerc</h5>
+            <p>Scuderia Ferrari, #16</p>
+            <a href="#leclerc" class="btn btn-primary btn-sm">View Bio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <img src="images/norris.avif" class="card-img-top" alt="Lando Norris" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Lando Norris</h5>
+            <p>McLaren, #4</p>
+            <a href="#norris" class="btn btn-primary btn-sm">View Bio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="card h-100">
+          <img src="images/antonelli.avif" class="card-img-top" alt="Andrea Kimi Antonelli" />
+          <div class="card-body text-center">
+            <h5 class="card-title">Andrea Kimi Antonelli</h5>
+            <p>Mercedes, #99</p>
+            <a href="#antonelli" class="btn btn-primary btn-sm">View Bio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Driver Bios -->
+    <section id="verstappen" class="driver-bio mt-5">
+      <h2>Max Verstappen</h2>
+      <img src="images/verstappen.avif" alt="Max Verstappen" class="float-start me-3 mb-3" />
+      <p>
+        Max Verstappen is a Dutch driver known for his aggressive racing style and multiple World Championships. He currently races for Red Bull Racing and has been a dominant force on the grid since his debut.
+      </p>
+      <ul class="stats-list">
+        <li><strong>Team:</strong> Red Bull Racing</li>
+        <li><strong>Driver Number:</strong> 1</li>
+        <li><strong>Races Started:</strong> 215</li>
+        <li><strong>Wins:</strong> 64</li>
+        <li><strong>Poles:</strong> 40</li>
+        <li><strong>Podiums:</strong> 115</li>
+      </ul>
+    </section>
+
+    <section id="leclerc" class="driver-bio mt-5">
+      <h2>Charles Leclerc</h2>
+      <img src="images/leclerc.avif" alt="Charles Leclerc" class="float-start me-3 mb-3" />
+      <p>
+        Charles Leclerc is a talented Monegasque driver, known for his speed and qualifying performances. He races for Scuderia Ferrari and is considered one of the brightest young stars in Formula 1.
+      </p>
+      <ul class="stats-list">
+        <li><strong>Team:</strong> Scuderia Ferrari</li>
+        <li><strong>Driver Number:</strong> 16</li>
+        <li><strong>Races Started:</strong> 90</li>
+        <li><strong>Wins:</strong> 5</li>
+        <li><strong>Poles:</strong> 12</li>
+        <li><strong>Podiums:</strong> 25</li>
+      </ul>
+    </section>
+
+    <section id="norris" class="driver-bio mt-5">
+      <h2>Lando Norris</h2>
+      <img src="images/norris.avif" alt="Lando Norris" class="float-start me-3 mb-3" />
+      <p>
+        Lando Norris is a British driver known for his consistency and fan-friendly personality. He races for McLaren and has quickly become a fan favorite.
+      </p>
+      <ul class="stats-list">
+        <li><strong>Team:</strong> McLaren</li>
+        <li><strong>Driver Number:</strong> 4</li>
+        <li><strong>Races Started:</strong> 70</li>
+        <li><strong>Wins:</strong> 1</li>
+        <li><strong>Poles:</strong> 2</li>
+        <li><strong>Podiums:</strong> 8</li>
+      </ul>
+    </section>
+
+    <section id="antonelli" class="driver-bio mt-5">
+      <h2>Andrea Kimi Antonelli</h2>
+      <img src="images/antonelli.avif" alt="Andrea Kimi Antonelli" class="float-start me-3 mb-3" />
+      <p>
+        Rising rookie Andrea Kimi Antonelli is a promising talent with a bright future in Formula 1. He currently races for Mercedes and is considered a top prospect.
+      </p>
+      <ul class="stats-list">
+        <li><strong>Team:</strong> Mercedes</li>
+        <li><strong>Driver Number:</strong> 99</li>
+        <li><strong>Races Started:</strong> 5</li>
+        <li><strong>Wins:</strong> 0</li>
+        <li><strong>Poles:</strong> 1</li>
+        <li><strong>Podiums:</strong> 1</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="text-center mt-5 mb-3">
+    <small>&copy; 2025 F1 Starterpack</small>
+  </footer>
+        
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>
